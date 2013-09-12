@@ -1,0 +1,457 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	height: 100%;
+	position: relative;
+	overflow-y: hidden;
+}
+
+#header {
+	background-color: #2d2d2d;
+	height: 40px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#body {
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 20px; /* Height of the footer */
+	background-color: #2d2d2d;
+}
+
+.headerTitle {
+	height: 100%;
+	width: 400px;
+	float: left;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: -5px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-family: "Verdana";
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+.currentUser {
+	height: 15px;
+	margin-right: 20px;
+	padding-top: 5px;
+	width: 300px;
+	float: right;
+	text-align: right;
+	display: table-cell;
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-family: "Verdana";
+	font-size: 0.7em;
+	font-weight: normal;
+	width: 300px;
+}
+
+.welcomeColumn {
+	height: 550px;
+	width: 50%;
+}
+
+.logoncolumn {
+	height: 550px;
+	width: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.logonForm {
+	width: 400px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 1px;
+	border-color: #2d2d2d;
+	background-color: #f5f5f5;
+	border-style: solid;
+}
+
+.error {
+	width: 100%;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #ff0000;
+	margin-top: 30px;
+}
+
+#popupHeader {
+	width: 100%;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 1.0em;
+	font-weight: normal;
+}
+
+.inputHeader {
+	width: 100%;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.inputHeaderMargin {
+	margin-left: 10px;
+}
+
+.inputButtonMargin {
+	width: 100%;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.inputText {
+	with: 100%;
+	text-align: center;
+}
+
+.inputSelect {
+	width: 95%;
+}
+
+#popupCancel {
+	padding-left: 100px;
+	!
+	important
+}
+
+.inputLogonWith {
+	width: 380px;
+}
+
+.welcomeArea {
+	width: 95%;
+	padding-left: 30px;
+	font-family: "Verdana";
+	font-size: 0.9em;
+	font-weight: normal;
+	font-family: "Verdana";
+}
+
+.buttonTable {
+	width: 240px;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.buttonTable td {
+	width: 120px;
+}
+
+.mainTable {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 70px;
+	border-collapse: collapse;
+}
+
+.mainTable th[scope=col] {
+	height: 40px;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #2d2d2d;
+}
+
+.leftColumn {
+	height: 100%;
+	width: 15%;
+	text-align: left;
+}
+
+.leftContent {
+	height: 100%;
+	margin-left: 20px;
+}
+
+.leftThContent {
+	align: left;
+	margin-left: 20px;
+}
+
+.centerColumn {
+	height: 100%;
+	width: 70%;
+}
+
+.centerContent {
+	height: 100%;
+	width: 100%;
+}
+
+.rightColumn {
+	height: 100%;
+	width: 15%;
+	text-align: center;
+}
+
+.rightContent {
+	height: 100%;
+	display: inline-block;
+}
+
+.rightThContent {
+	display: inline-block;
+}
+
+.listTable {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	font-family: "Verdana";
+	font-size: 0.8em;
+	font-weight: normal;
+	text-align: left;
+}
+
+.listTable th[scope=col] {
+	background-color: #2d2d2d;
+	color: #ffffff;
+	height: 30px;
+}
+
+.listTable td {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.listTable tr {
+	height: 30px;
+	max-height: 30px;
+}
+
+.listTable tr:hover td {
+	background-color: #ffffd6;
+	cursor: hand;
+}
+
+#menuSelection {
+	overflow: hidden;
+	width: 100px;
+	height: 24px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f1f1f1 #f1f1f1 #f1f1f1 #f1f1f1;
+	border-color: rgba(241, 241, 241, 1) rgba(241, 241, 241, 1)
+		rgba(241, 241, 241, 1) rgba(241, 241, 241, 1);
+	background: url("../resources/images/arrow.png") no-repeat scroll 80px
+		1px #f1f1f1;
+}
+
+.menuSelect {
+	-webkit-appearance: none;
+	border: 0 none;
+	color: #d74635;
+	background: transparent;
+	font: bold 0.9em Verdana;
+	width: 100px;
+}
+
+.selectOption {
+	font: normal 0.8em Verdana;
+	color: #2f2f2f;
+}
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+a.styleButtonNormal,button.styleButtonNormal {
+	background: #555;
+	float: left;
+	padding: 4px;
+	text-decoration: none;
+	outline: 0;
+	border-width: 1px;
+	border-style: solid;
+	overflow: visible;
+	border-color: transparent transparent #666 transparent;
+	border-color: transparent transparent rgba(202, 202, 202, 0.2)
+		transparent;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-background-clip: padding-box;
+}
+
+a.styleButtonNormal span,button.styleButtonNormal span {
+	height: 16px;
+	width: 60px;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #2d2d2d #2d2d2d #2d2d2d #2d2d2d;
+	border-color: rgba(45, 45, 45, 0.7) rgba(45, 45, 45, 0.5)
+		rgba(45, 45, 45, 0.7) rgba(45, 45, 45, 0.5);
+	font: normal 0.9em Verdana;
+	color: #ffffff;
+	padding: 0.3em 1.2em;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+a.styleButtonNormal:hover span,button.styleButtonNormal:hover span {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100,
+		0.2) ), to(rgba(100, 100, 100, 0.2) ) );
+	background: -moz-linear-gradient(top, rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2) );
+	-webkit-background-clip: padding-box;
+}
+
+a.styleButtonNormal:active span,button.styleButtonNormal:active span {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100,
+		0.2) ), to(rgba(100, 100, 100, 0.2) ) );
+	background: -moz-linear-gradient(top, rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2) );
+	-webkit-background-clip: padding-box;
+}
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+a.styleButtonContentAction,button.styleButtonContentAction {
+	background: #555;
+	float: left;
+	padding: 4px;
+	text-decoration: none;
+	outline: 0;
+	border-width: 1px;
+	border-style: solid;
+	overflow: visible;
+	border-color: transparent transparent #666 transparent;
+	border-color: transparent transparent rgba(202, 202, 202, 0.2)
+		transparent;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-background-clip: padding-box;
+}
+
+a.styleButtonContentAction span,button.styleButtonContentAction span {
+	height: 16px;
+	width: 120px;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #2d2d2d #2d2d2d #2d2d2d #2d2d2d;
+	border-color: rgba(45, 45, 45, 0.7) rgba(45, 45, 45, 0.5)
+		rgba(45, 45, 45, 0.7) rgba(45, 45, 45, 0.5);
+	font: normal 0.9em Verdana;
+	color: #ffffff;
+	padding: 0.3em 1.2em;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+a.styleButtonContentAction:hover span,button.styleButtonContentAction:hover span
+	{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100,
+		0.2) ), to(rgba(100, 100, 100, 0.2) ) );
+	background: -moz-linear-gradient(top, rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2) );
+	-webkit-background-clip: padding-box;
+}
+
+a.styleButtonContentAction:active span,button.styleButtonContentAction:active span
+	{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100,
+		0.2) ), to(rgba(100, 100, 100, 0.2) ) );
+	background: -moz-linear-gradient(top, rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2) );
+	-webkit-background-clip: padding-box;
+}
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+a.styleButtonListAction,button.styleButtonListAction {
+	background: #555;
+	float: left;
+	padding: 4px;
+	text-decoration: none;
+	outline: 0;
+	border-width: 1px;
+	border-style: solid;
+	overflow: visible;
+	border-color: transparent transparent #666 transparent;
+	border-color: transparent transparent rgba(202, 202, 202, 0.2)
+		transparent;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-background-clip: padding-box;
+}
+
+a.styleButtonListAction span,button.styleButtonListAction span {
+	height: 16px;
+	width: 20px;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #2d2d2d #2d2d2d #2d2d2d #2d2d2d;
+	border-color: rgba(45, 45, 45, 0.7) rgba(45, 45, 45, 0.5)
+		rgba(45, 45, 45, 0.7) rgba(45, 45, 45, 0.5);
+	font: normal 0.9em Verdana;
+	color: #ffffff;
+	padding: 0.3em 1.2em;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+a.styleButtonListAction:hover span,button.styleButtonListAction:hover span
+	{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100,
+		0.2) ), to(rgba(100, 100, 100, 0.2) ) );
+	background: -moz-linear-gradient(top, rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2) );
+	-webkit-background-clip: padding-box;
+}
+
+a.styleButtonListAction:active span,button.styleButtonListAction:active span
+	{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100,
+		0.2) ), to(rgba(100, 100, 100, 0.2) ) );
+	background: -moz-linear-gradient(top, rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2), rgba(100, 100, 100, 0.2),
+		rgba(100, 100, 100, 0.2) );
+	-webkit-background-clip: padding-box;
+}
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+.styleButtonInactive {
+	display: none;
+}
